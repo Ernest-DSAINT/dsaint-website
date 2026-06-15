@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Metrics from "../components/Metrics";
 import Challenge from "../components/Challenge";
+import InvestmentCase from "../components/InvestmentCase";
 import Vision from "../components/Vision";
 import Architecture from "../components/Architecture";
 import Node01 from "../components/Node01";
@@ -23,6 +24,8 @@ export default function Home() {
         <Metrics />
 
         <Challenge />
+
+        <InvestmentCase />
 
         <Vision />
 

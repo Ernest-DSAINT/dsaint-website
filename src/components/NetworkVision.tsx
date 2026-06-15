@@ -21,23 +21,62 @@ export default function NetworkVision() {
           </p>
         </div>
 
-        {/* Europe Map Placeholder */}
+        {/* Europe Map */}
         <div className="bg-white rounded-3xl shadow-xl overflow-hidden mb-16">
+          <Image
+            src="/images/europe-network-map.png"
+            alt="DSAINT European Network Vision"
+            width={1600}
+            height={900}
+            className="w-full h-auto"
+          />
+        </div>
 
-          <div className="relative">
+        {/* Vision Cards */}
+        <div className="grid md:grid-cols-3 gap-8">
 
-            <Image
-              src="/images/europe-network-map.png"
-              alt="DSAINT European Network Vision"
-              width={1600}
-              height={900}
-              className="w-full h-auto"
-            />
+          <div className="bg-white rounded-3xl shadow-lg p-8 text-center">
+            <div className="text-5xl mb-4">🏗️</div>
 
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">
+              Demonstrator Node 01
+            </h3>
+
+            <p className="text-slate-600">
+              Bedburg-Hau serves as the first DSAINT node and blueprint
+              for future sovereign AI infrastructure deployment.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-3xl shadow-lg p-8 text-center">
+            <div className="text-5xl mb-4">🇩🇪</div>
+
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">
+              German Expansion
+            </h3>
+
+            <p className="text-slate-600">
+              Future nodes across Germany create a distributed,
+              resilient and sovereign AI infrastructure backbone.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-3xl shadow-lg p-8 text-center">
+            <div className="text-5xl mb-4">🇪🇺</div>
+
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">
+              European Vision
+            </h3>
+
+            <p className="text-slate-600">
+              Long-term expansion into a European network supporting
+              digital sovereignty and infrastructure resilience.
+            </p>
           </div>
 
         </div>
 
-        {/* Network Layers */}
-
-        <
+      </div>
+    </section>
+  );
+}

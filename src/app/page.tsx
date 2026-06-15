@@ -12,6 +12,7 @@ import Sustainability from "../components/Sustainability";
 import Roadmap from "../components/Roadmap";
 import NetworkVision from "../components/NetworkVision";
 import Governance from "../components/Governance";
+import Resources from "../components/Resources";
 import Partnerships from "../components/Partnerships";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -47,6 +48,8 @@ export default function Home() {
         <NetworkVision />
 
         <Governance />
+
+        <Resources />
 
         <Partnerships />
 

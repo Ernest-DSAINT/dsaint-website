@@ -1,6 +1,6 @@
 export default function Architecture() {
   return (
-    <section className="py-24 bg-white">
+    <section id="architecture" className="py-24 bg-white">
 
       <div className="max-w-7xl mx-auto px-6">
 

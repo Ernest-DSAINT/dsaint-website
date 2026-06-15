@@ -12,3 +12,6 @@ body {
   color: #0f172a;
   font-family: Inter, Arial, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}

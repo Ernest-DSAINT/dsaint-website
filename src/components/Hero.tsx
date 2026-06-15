@@ -1,37 +1,29 @@
-export default function Hero() {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-sky-100 to-white">
+<section className="min-h-screen flex items-center justify-center text-center relative">
 
-      <div className="max-w-6xl mx-auto text-center px-6">
+  <div className="max-w-6xl px-6">
 
-        <img
-          src="/images/dsaint-logo.png"
-          alt="DSAINT Logo"
-          className="mx-auto mb-8 w-72"
-        />
+    <div className="inline-block px-4 py-2 rounded-full border border-yellow-400 text-yellow-400 mb-6">
+      Concept Development Document
+    </div>
 
-        <h1 className="text-6xl font-bold text-slate-900 mb-6">
-          Building Germany's Sovereign AI Infrastructure Backbone
-        </h1>
+    <h1 className="text-6xl font-extrabold text-white mb-6">
+      Building Germany's Sovereign
+      <br />
+      AI Infrastructure Backbone
+    </h1>
 
-        <p className="text-2xl text-slate-600 mb-10">
-          Distributed Sovereign AI Infrastructure Nodes Technology
-        </p>
+    <p className="text-2xl text-sky-300 mb-8">
+      Securing Germany's Digital Future Through
+      Distributed Sovereign AI Infrastructure
+    </p>
 
-        <div className="flex flex-wrap justify-center gap-4">
+    <p className="max-w-4xl mx-auto text-lg text-white/90 mb-12">
+      DSAINT is developing a distributed network of secure,
+      sustainable and AI-optimized infrastructure nodes
+      designed to strengthen Germany's digital sovereignty
+      and support Europe's next generation of AI innovation.
+    </p>
 
-          <button className="px-8 py-4 bg-blue-700 text-white rounded-xl">
-            Explore DSAINT
-          </button>
+  </div>
 
-          <button className="px-8 py-4 border border-blue-700 text-blue-700 rounded-xl">
-            View Demonstrator Node 01
-          </button>
-
-        </div>
-
-      </div>
-
-    </section>
-  );
-}
+</section>

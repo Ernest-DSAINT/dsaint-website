@@ -19,13 +19,20 @@ export default function Navbar() {
           </a>
 
           {/* Navigation */}
-          <div className="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-700">
+          <div className="hidden lg:flex items-center gap-5 text-sm font-semibold text-slate-700">
 
             <a
               href="#vision"
               className="hover:text-blue-700 transition-colors"
             >
               Vision
+            </a>
+
+            <a
+              href="#ecosystem"
+              className="hover:text-blue-700 transition-colors"
+            >
+              Ecosystem
             </a>
 
             <a
@@ -57,6 +64,20 @@ export default function Navbar() {
             </a>
 
             <a
+              href="#network"
+              className="hover:text-blue-700 transition-colors"
+            >
+              Network
+            </a>
+
+            <a
+              href="#governance"
+              className="hover:text-blue-700 transition-colors"
+            >
+              Governance
+            </a>
+
+            <a
               href="#contact"
               className="hover:text-blue-700 transition-colors"
             >
@@ -66,9 +87,9 @@ export default function Navbar() {
             {/* CTA */}
             <a
               href="#contact"
-              className="ml-4 px-5 py-2.5 bg-blue-700 text-white rounded-xl shadow hover:bg-blue-800 transition-colors"
+              className="ml-2 px-5 py-2.5 bg-blue-700 text-white rounded-xl shadow hover:bg-blue-800 transition-colors"
             >
-              Contact Us
+              Become a Partner
             </a>
 
           </div>

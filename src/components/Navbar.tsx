@@ -6,11 +6,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
 
-          {/* DSAINT Logo */}
-          <a
-            href="#top"
-            className="flex items-center"
-          >
+          {/* Logo */}
+          <a href="#" className="flex items-center">
             <Image
               src="/images/dsaint-logo-horizontal.png"
               alt="DSAINT"
@@ -94,7 +91,7 @@ export default function Navbar() {
               Contact
             </a>
 
-            {/* CTA */}
+            {/* CTA Button */}
             <a
               href="#contact"
               className="ml-2 px-5 py-2.5 bg-blue-700 text-white rounded-xl shadow hover:bg-blue-800 transition-colors"

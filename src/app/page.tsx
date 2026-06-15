@@ -9,6 +9,7 @@ import Node01 from "../components/Node01";
 import Technology from "../components/Technology";
 import Sustainability from "../components/Sustainability";
 import Roadmap from "../components/Roadmap";
+import NetworkVision from "../components/NetworkVision";
 import Partnerships from "../components/Partnerships";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -38,6 +39,8 @@ export default function Home() {
         <Sustainability />
 
         <Roadmap />
+
+        <NetworkVision />
 
         <Partnerships />
 

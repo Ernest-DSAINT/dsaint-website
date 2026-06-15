@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Node01() {
   return (
-    <section className="py-24 bg-slate-50">
+    <section id="node" className="py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="text-center mb-16">

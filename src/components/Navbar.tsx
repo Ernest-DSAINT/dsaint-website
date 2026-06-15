@@ -7,7 +7,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
 
           {/* Logo */}
-          <a href="#top" className="flex items-center">
+          <a href="#" className="flex items-center">
             <Image
               src="/images/dsaint-logo-horizontal.png"
               alt="DSAINT"
@@ -100,7 +100,6 @@ export default function Navbar() {
             </a>
 
           </div>
-
         </div>
       </div>
     </nav>

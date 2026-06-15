@@ -1,4 +1,5 @@
 import Hero from "../components/Hero";
+import Metrics from "../components/Metrics";
 import Challenge from "../components/Challenge";
 import Vision from "../components/Vision";
 import Architecture from "../components/Architecture";
@@ -14,15 +15,38 @@ export default function Home() {
   return (
     <>
       <Hero />
+
+      {/* DSAINT Metrics */}
+      <Metrics />
+
+      {/* Challenge */}
       <Challenge />
+
+      {/* DSAINT Vision */}
       <Vision />
+
+      {/* Four Layer Architecture */}
       <Architecture />
+
+      {/* Demonstrator Node 01 */}
       <Node01 />
+
+      {/* Technology */}
       <Technology />
+
+      {/* Sustainability */}
       <Sustainability />
+
+      {/* Roadmap */}
       <Roadmap />
+
+      {/* Partnerships */}
       <Partnerships />
+
+      {/* Contact */}
       <Contact />
+
+      {/* Footer */}
       <Footer />
     </>
   );

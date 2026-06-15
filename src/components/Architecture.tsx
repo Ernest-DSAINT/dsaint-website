@@ -1,47 +1,8 @@
 export default function Architecture() {
-  const layers = [
-    {
-      number: "01",
-      title: "Municipal Integration Layer",
-      description:
-        "Strategic partnerships with municipalities providing land access, permitting support, local energy integration, district heating opportunities, and regional economic development.",
-      color: "border-green-500",
-      bg: "bg-green-50",
-      text: "text-green-700",
-    },
-    {
-      number: "02",
-      title: "Energy & Cooling Layer",
-      description:
-        "Dedicated substations, resilient power delivery, direct-to-chip liquid cooling, thermal storage systems, heat recovery, and sustainable infrastructure operations.",
-      color: "border-sky-500",
-      bg: "bg-sky-50",
-      text: "text-sky-700",
-    },
-    {
-      number: "03",
-      title: "AI Infrastructure Core Layer",
-      description:
-        "Tier III AI-ready facilities designed for secure, scalable deployment of next-generation compute infrastructure with N+1 redundancy and high availability.",
-      color: "border-blue-600",
-      bg: "bg-blue-50",
-      text: "text-blue-700",
-    },
-    {
-      number: "04",
-      title: "Digital Operations Layer",
-      description:
-        "Digital twin operations, monitoring systems, security management, predictive maintenance, automation, and sovereign infrastructure governance.",
-      color: "border-yellow-500",
-      bg: "bg-yellow-50",
-      text: "text-yellow-700",
-    },
-  ];
-
   return (
     <section
       id="architecture"
-      className="py-28 bg-white"
+      className="py-28 bg-gradient-to-b from-white to-slate-50"
     >
       <div className="max-w-7xl mx-auto px-6">
 
@@ -52,57 +13,118 @@ export default function Architecture() {
           </h2>
 
           <p className="max-w-4xl mx-auto text-xl text-slate-600">
-            DSAINT creates long-term value through ownership and operation
-            of sovereign AI infrastructure. The platform combines municipal
-            partnerships, resilient energy systems, advanced facilities,
-            and digital operations into a scalable European blueprint.
+            DSAINT creates value through ownership and operation of sovereign AI
+            infrastructure. The platform integrates municipalities, energy,
+            facilities and digital operations into a scalable European blueprint.
           </p>
         </div>
 
         {/* Architecture Stack */}
-        <div className="max-w-5xl mx-auto space-y-6">
+        <div className="max-w-5xl mx-auto">
 
-          {layers.map((layer) => (
-            <div
-              key={layer.number}
-              className={`${layer.bg} ${layer.color} border-l-8 rounded-3xl shadow-lg p-8 hover:shadow-xl transition`}
-            >
-              <div className="flex flex-col md:flex-row md:items-center gap-6">
+          {/* Layer 4 */}
+          <div className="bg-yellow-50 border-l-8 border-yellow-500 rounded-3xl shadow-lg p-8 mb-6 hover:shadow-xl transition">
+            <div className="flex items-center gap-6">
+              <div className="text-6xl">🧠</div>
 
-                <div
-                  className={`text-6xl font-extrabold ${layer.text} min-w-[120px]`}
-                >
-                  {layer.number}
-                </div>
+              <div>
+                <h3 className="text-3xl font-bold text-slate-900">
+                  Digital Operations Layer
+                </h3>
 
-                <div>
-                  <h3 className="text-3xl font-bold text-slate-900 mb-3">
-                    {layer.title}
-                  </h3>
-
-                  <p className="text-lg text-slate-700 leading-relaxed">
-                    {layer.description}
-                  </p>
-                </div>
-
+                <p className="text-slate-700 mt-3">
+                  Digital twin operations, infrastructure monitoring,
+                  automation, predictive maintenance, cybersecurity,
+                  governance and performance optimization.
+                </p>
               </div>
             </div>
-          ))}
+          </div>
+
+          <div className="text-center text-4xl text-slate-400 mb-6">
+            ↓
+          </div>
+
+          {/* Layer 3 */}
+          <div className="bg-blue-50 border-l-8 border-blue-600 rounded-3xl shadow-lg p-8 mb-6 hover:shadow-xl transition">
+            <div className="flex items-center gap-6">
+              <div className="text-6xl">🏢</div>
+
+              <div>
+                <h3 className="text-3xl font-bold text-slate-900">
+                  AI Infrastructure Core Layer
+                </h3>
+
+                <p className="text-slate-700 mt-3">
+                  Tier III facilities, AI-ready infrastructure, secure
+                  operations, high-availability systems, physical security,
+                  resilient deployment environments and future-ready expansion.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center text-4xl text-slate-400 mb-6">
+            ↓
+          </div>
+
+          {/* Layer 2 */}
+          <div className="bg-sky-50 border-l-8 border-sky-500 rounded-3xl shadow-lg p-8 mb-6 hover:shadow-xl transition">
+            <div className="flex items-center gap-6">
+              <div className="text-6xl">⚡</div>
+
+              <div>
+                <h3 className="text-3xl font-bold text-slate-900">
+                  Energy & Cooling Layer
+                </h3>
+
+                <p className="text-slate-700 mt-3">
+                  Dedicated substations, resilient power delivery,
+                  direct-to-chip liquid cooling, BTES thermal storage,
+                  heat recovery systems and sustainable energy integration.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center text-4xl text-slate-400 mb-6">
+            ↓
+          </div>
+
+          {/* Layer 1 */}
+          <div className="bg-green-50 border-l-8 border-green-600 rounded-3xl shadow-lg p-8 hover:shadow-xl transition">
+            <div className="flex items-center gap-6">
+              <div className="text-6xl">🌍</div>
+
+              <div>
+                <h3 className="text-3xl font-bold text-slate-900">
+                  Municipal Integration Layer
+                </h3>
+
+                <p className="text-slate-700 mt-3">
+                  Land access, permitting support, district heating
+                  integration, local partnerships, workforce development
+                  and regional economic growth.
+                </p>
+              </div>
+            </div>
+          </div>
 
         </div>
 
-        {/* Summary */}
-        <div className="mt-20 bg-slate-900 rounded-3xl p-10 text-center text-white">
+        {/* Summary Panel */}
+        <div className="mt-20 bg-slate-900 rounded-3xl p-12 text-center">
 
-          <h3 className="text-3xl font-bold mb-4">
+          <h3 className="text-3xl font-bold text-white mb-6">
             Infrastructure Ownership Model
           </h3>
 
           <p className="max-w-4xl mx-auto text-lg text-slate-300">
             Unlike traditional AI companies, DSAINT focuses on ownership and
-            operation of land, facilities, energy systems, cooling infrastructure,
-            security systems, connectivity, and digital operations rather than
-            ownership of rapidly depreciating compute hardware.
+            operation of long-life infrastructure assets including land,
+            facilities, power systems, cooling infrastructure, connectivity,
+            security systems and digital operations rather than ownership of
+            rapidly depreciating compute hardware.
           </p>
 
         </div>

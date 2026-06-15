@@ -1,3 +1,4 @@
+import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Metrics from "../components/Metrics";
 import Challenge from "../components/Challenge";
@@ -14,39 +15,32 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Navbar />
 
-      {/* DSAINT Metrics */}
-      <Metrics />
+      <main>
+        <Hero />
 
-      {/* Challenge */}
-      <Challenge />
+        <Metrics />
 
-      {/* DSAINT Vision */}
-      <Vision />
+        <Challenge />
 
-      {/* Four Layer Architecture */}
-      <Architecture />
+        <Vision />
 
-      {/* Demonstrator Node 01 */}
-      <Node01 />
+        <Architecture />
 
-      {/* Technology */}
-      <Technology />
+        <Node01 />
 
-      {/* Sustainability */}
-      <Sustainability />
+        <Technology />
 
-      {/* Roadmap */}
-      <Roadmap />
+        <Sustainability />
 
-      {/* Partnerships */}
-      <Partnerships />
+        <Roadmap />
 
-      {/* Contact */}
-      <Contact />
+        <Partnerships />
 
-      {/* Footer */}
+        <Contact />
+      </main>
+
       <Footer />
     </>
   );

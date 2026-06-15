@@ -5,18 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata: Metadata = {
   title: "DSAINT | Distributed Sovereign AI Infrastructure Nodes Technology",
   description:
-    "Building Germany's Sovereign AI Infrastructure Backbone. DSAINT develops distributed sovereign AI infrastructure nodes designed to strengthen Germany's digital sovereignty and support Europe's next generation of AI innovation.",
-
-  keywords: [
-    "DSAINT",
-    "AI Infrastructure",
-    "Sovereign AI",
-    "Germany",
-    "European AI",
-    "Data Center",
-    "Digital Sovereignty",
-    "AI Infrastructure Nodes",
-  ],
+    "Building Germany's Sovereign AI Infrastructure Backbone.",
 
   openGraph: {
     title:

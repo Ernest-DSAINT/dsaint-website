@@ -1,6 +1,6 @@
 export default function Vision() {
   return (
-    <section className="py-24">
+    <section id="vision" className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-6 text-center">
 
         <h2 className="text-4xl font-bold mb-8">

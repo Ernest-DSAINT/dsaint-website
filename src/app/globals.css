@@ -8,10 +8,16 @@ html {
 
 body {
   margin: 0;
-  background: white;
-  color: #0f172a;
   font-family: Inter, Arial, sans-serif;
+  background: linear-gradient(
+    180deg,
+    #f8fbff 0%,
+    #eef6ff 40%,
+    #ffffff 100%
+  );
+  color: #0f172a;
 }
-html {
-  scroll-behavior: smooth;
+
+* {
+  box-sizing: border-box;
 }

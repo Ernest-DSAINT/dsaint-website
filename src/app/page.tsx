@@ -4,6 +4,7 @@ import Metrics from "../components/Metrics";
 import Challenge from "../components/Challenge";
 import InvestmentCase from "../components/InvestmentCase";
 import Vision from "../components/Vision";
+import Ecosystem from "../components/Ecosystem";
 import Architecture from "../components/Architecture";
 import Node01 from "../components/Node01";
 import Technology from "../components/Technology";
@@ -29,6 +30,8 @@ export default function Home() {
         <InvestmentCase />
 
         <Vision />
+
+        <Ecosystem />
 
         <Architecture />
 

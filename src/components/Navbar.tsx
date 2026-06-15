@@ -6,20 +6,23 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-20">
 
-          {/* Logo */}
-          <a href="#top" className="flex items-center">
+          {/* DSAINT Logo */}
+          <a
+            href="#top"
+            className="flex items-center"
+          >
             <Image
               src="/images/dsaint-logo-horizontal.png"
               alt="DSAINT"
               width={320}
-              height={90}
+              height={80}
               priority
               className="h-14 w-auto"
             />
           </a>
 
           {/* Navigation */}
-          <div className="hidden lg:flex items-center gap-5 text-sm font-semibold text-slate-700">
+          <div className="hidden xl:flex items-center gap-5 text-sm font-semibold text-slate-700">
 
             <a
               href="#vision"
@@ -75,6 +78,13 @@ export default function Navbar() {
               className="hover:text-blue-700 transition-colors"
             >
               Governance
+            </a>
+
+            <a
+              href="#resources"
+              className="hover:text-blue-700 transition-colors"
+            >
+              Resources
             </a>
 
             <a

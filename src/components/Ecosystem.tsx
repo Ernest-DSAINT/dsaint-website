@@ -27,9 +27,9 @@ export default function Ecosystem() {
     {
       icon: "🌍",
       title: "Layer 4",
-      subtitle: "Community Compute Federation",
+      subtitle: "DSAINT Community Compute Federation",
       description:
-        "Citizens, SMEs, startups and home AI operators participating in a trusted distributed compute federation supporting Germany's future AI ecosystem.",
+        "A trusted ecosystem enabling citizens, SMEs, startups and home AI operators to participate in Germany's future sovereign AI infrastructure network through distributed compute resources, innovation initiatives and digital collaboration.",
       color: "bg-yellow-50 border-yellow-500",
     },
   ];
@@ -43,7 +43,6 @@ export default function Ecosystem() {
 
         {/* Header */}
         <div className="text-center mb-20">
-
           <h2 className="text-5xl font-bold text-slate-900 mb-6">
             DSAINT Ecosystem
           </h2>
@@ -53,11 +52,9 @@ export default function Ecosystem() {
             infrastructure, research, industry and communities into
             a resilient national AI platform.
           </p>
-
         </div>
 
         {/* Ecosystem Layers */}
-
         <div className="grid lg:grid-cols-2 gap-8">
 
           {layers.map((layer) => (
@@ -85,18 +82,89 @@ export default function Ecosystem() {
 
         </div>
 
-        {/* Strategic Vision */}
+        {/* Community Federation Highlight */}
+        <div className="mt-16 bg-gradient-to-r from-yellow-50 to-amber-50 border border-yellow-200 rounded-3xl p-10">
 
+          <div className="text-center mb-10">
+
+            <h3 className="text-3xl font-bold text-slate-900 mb-4">
+              DSAINT Community Compute Federation
+            </h3>
+
+            <p className="max-w-4xl mx-auto text-lg text-slate-600">
+              The long-term vision extends beyond infrastructure ownership.
+              DSAINT aims to create a trusted ecosystem where communities,
+              startups and small businesses can contribute to Germany&apos;s
+              future sovereign AI capabilities.
+            </p>
+
+          </div>
+
+          <div className="grid md:grid-cols-4 gap-6">
+
+            <div className="bg-white rounded-2xl p-6 shadow text-center">
+              <div className="text-4xl mb-3">👨‍👩‍👧‍👦</div>
+
+              <h4 className="font-bold mb-2">
+                Citizens
+              </h4>
+
+              <p className="text-sm text-slate-600">
+                Participation in trusted digital infrastructure initiatives.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow text-center">
+              <div className="text-4xl mb-3">🏢</div>
+
+              <h4 className="font-bold mb-2">
+                SMEs
+              </h4>
+
+              <p className="text-sm text-slate-600">
+                Access to scalable AI infrastructure and innovation programs.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow text-center">
+              <div className="text-4xl mb-3">🚀</div>
+
+              <h4 className="font-bold mb-2">
+                Startups
+              </h4>
+
+              <p className="text-sm text-slate-600">
+                Accelerated development through sovereign AI infrastructure access.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 shadow text-center">
+              <div className="text-4xl mb-3">🖥️</div>
+
+              <h4 className="font-bold mb-2">
+                Home AI Operators
+              </h4>
+
+              <p className="text-sm text-slate-600">
+                Future participation in a trusted distributed compute ecosystem.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+        {/* Strategic Vision */}
         <div className="mt-20 bg-slate-900 rounded-3xl p-12 text-center">
 
           <h3 className="text-3xl font-bold text-white mb-6">
-            Germany's Future AI Ecosystem
+            Germany&apos;s Future AI Ecosystem
           </h3>
 
           <p className="max-w-4xl mx-auto text-lg text-slate-300">
             DSAINT aims to connect sovereign infrastructure, research
             institutions, industry and communities into a distributed
-            ecosystem capable of supporting Germany's long-term AI
+            ecosystem capable of supporting Germany&apos;s long-term AI
             competitiveness and digital sovereignty.
           </p>
 

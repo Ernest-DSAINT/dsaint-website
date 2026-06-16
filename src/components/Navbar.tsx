@@ -4,22 +4,23 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="flex items-center justify-between h-20">
+
+        <div className="flex items-center justify-between h-28">
 
           {/* Logo */}
           <a href="#" className="flex items-center">
             <Image
               src="/images/dsaint-logo-horizontal.png"
               alt="DSAINT"
-              width={320}
-              height={80}
+              width={1200}
+              height={300}
               priority
-              className="h-12 w-auto"
+              className="h-24 w-auto"
             />
           </a>
 
           {/* Navigation */}
-          <div className="hidden lg:flex items-center gap-6 text-sm font-semibold text-slate-700">
+          <div className="hidden xl:flex items-center gap-8 text-sm font-semibold text-slate-700">
 
             <a
               href="#vision"
@@ -92,7 +93,9 @@ export default function Navbar() {
             </a>
 
           </div>
+
         </div>
+
       </div>
     </nav>
   );

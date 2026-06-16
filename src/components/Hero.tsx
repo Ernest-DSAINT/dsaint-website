@@ -2,16 +2,19 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden">
+    <section
+      id="vision"
+      className="relative min-h-screen overflow-hidden"
+    >
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-sky-100 via-white to-slate-50" />
 
-      {/* Spacer for fixed navbar */}
-      <div className="h-20" />
+      {/* Spacer for taller navbar */}
+      <div className="h-28" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-16">
 
-        {/* DSAINT Corporate Banner */}
+        {/* DSAINT Banner */}
         <div className="flex justify-center mb-12">
           <Image
             src="/images/dsaint-header-banner.png"
@@ -25,7 +28,7 @@ export default function Hero() {
 
         {/* Badge */}
         <div className="flex justify-center mb-8">
-          <div className="px-6 py-2 rounded-full border border-yellow-500 bg-white/80 backdrop-blur-sm text-yellow-700 font-semibold shadow-sm">
+          <div className="px-6 py-2 rounded-full border border-yellow-500 bg-white/80 text-yellow-700 font-semibold shadow-sm">
             Concept Development Document
           </div>
         </div>
@@ -44,7 +47,7 @@ export default function Hero() {
           Distributed Sovereign AI Infrastructure
         </p>
 
-        {/* Summary */}
+        {/* Description */}
         <p className="text-center text-lg text-slate-600 max-w-5xl mx-auto mb-16">
           DSAINT develops a distributed network of secure, sustainable,
           and AI-optimized infrastructure nodes designed to strengthen

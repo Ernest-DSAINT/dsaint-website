@@ -14,12 +14,12 @@ export default function Navbar() {
               width={320}
               height={80}
               priority
-              className="h-14 w-auto"
+              className="h-12 w-auto"
             />
           </a>
 
           {/* Navigation */}
-          <div className="hidden xl:flex items-center gap-5 text-sm font-semibold text-slate-700">
+          <div className="hidden lg:flex items-center gap-6 text-sm font-semibold text-slate-700">
 
             <a
               href="#vision"
@@ -89,14 +89,6 @@ export default function Navbar() {
               className="hover:text-blue-700 transition-colors"
             >
               Contact
-            </a>
-
-            {/* CTA Button */}
-            <a
-              href="#contact"
-              className="ml-2 px-5 py-2.5 bg-blue-700 text-white rounded-xl shadow hover:bg-blue-800 transition-colors"
-            >
-              Become a Partner
             </a>
 
           </div>

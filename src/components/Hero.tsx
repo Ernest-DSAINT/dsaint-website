@@ -9,8 +9,8 @@ export default function Hero() {
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-sky-100 via-white to-slate-50" />
 
-      {/* Spacer for taller navbar */}
-      <div className="h-28" />
+      {/* Navbar Spacer */}
+      <div className="h-20" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-16">
 
@@ -22,13 +22,13 @@ export default function Hero() {
             width={1800}
             height={500}
             priority
-            className="w-full max-w-6xl h-auto"
+            className="w-full max-w-5xl h-auto"
           />
         </div>
 
         {/* Badge */}
         <div className="flex justify-center mb-8">
-          <div className="px-6 py-2 rounded-full border border-yellow-500 bg-white/80 text-yellow-700 font-semibold shadow-sm">
+          <div className="px-6 py-2 rounded-full border border-yellow-500 bg-white/90 text-yellow-700 font-semibold shadow-sm">
             Concept Development Document
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function Hero() {
 
         </div>
 
-        {/* Values */}
+        {/* Core Values */}
         <div className="flex flex-wrap justify-center gap-8 text-slate-700 font-medium text-lg">
           <span>🔒 Secure</span>
           <span>🇪🇺 Sovereign</span>

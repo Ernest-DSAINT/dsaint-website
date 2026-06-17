@@ -7,22 +7,18 @@ export default function LanguageSwitcher() {
 
   const languages = [
     {
-      flag: '🇺🇸',
       code: 'US',
       url: 'https://dsaint.eu',
     },
     {
-      flag: '🇩🇪',
       code: 'DE',
       url: 'https://translate.google.com/translate?sl=en&tl=de&u=https://dsaint.eu',
     },
     {
-      flag: '🇫🇷',
       code: 'FR',
       url: 'https://translate.google.com/translate?sl=en&tl=fr&u=https://dsaint.eu',
     },
     {
-      flag: '🇪🇸',
       code: 'ES',
       url: 'https://translate.google.com/translate?sl=en&tl=es&u=https://dsaint.eu',
     },
@@ -43,17 +39,20 @@ export default function LanguageSwitcher() {
           transition
         "
       >
-        <span className="text-xl">🇺🇸</span>
+        <span className="font-semibold">US</span>
         <span className="text-xs">▼</span>
       </button>
 
       {open && (
         <div
           className="
-            absolute right-0 mt-2
-            w-32
+            absolute
+            right-0
+            mt-2
+            w-20
             rounded-xl
-            border border-slate-200
+            border
+            border-slate-200
             bg-white
             shadow-xl
             overflow-hidden
@@ -67,19 +66,17 @@ export default function LanguageSwitcher() {
               target="_blank"
               rel="noopener noreferrer"
               className="
-                flex items-center justify-between
-                px-4 py-3
+                block
+                px-4
+                py-3
+                text-center
+                font-semibold
+                text-slate-700
                 hover:bg-sky-50
                 transition
               "
             >
-              <span className="text-xl">
-                {lang.flag}
-              </span>
-
-              <span className="font-medium text-slate-700">
-                {lang.code}
-              </span>
+              {lang.code}
             </a>
           ))}
         </div>

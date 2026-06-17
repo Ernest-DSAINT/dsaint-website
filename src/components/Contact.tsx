@@ -29,6 +29,7 @@ export default function Contact() {
               <label className="block text-sm font-medium text-slate-700 mb-2">
                 First Name *
               </label>
+
               <input
                 type="text"
                 name="firstName"
@@ -42,6 +43,7 @@ export default function Contact() {
               <label className="block text-sm font-medium text-slate-700 mb-2">
                 Last Name *
               </label>
+
               <input
                 type="text"
                 name="lastName"
@@ -58,6 +60,7 @@ export default function Contact() {
               <label className="block text-sm font-medium text-slate-700 mb-2">
                 Email *
               </label>
+
               <input
                 type="email"
                 name="email"
@@ -71,6 +74,7 @@ export default function Contact() {
               <label className="block text-sm font-medium text-slate-700 mb-2">
                 Phone
               </label>
+
               <input
                 type="text"
                 name="phone"
@@ -86,6 +90,7 @@ export default function Contact() {
               <label className="block text-sm font-medium text-slate-700 mb-2">
                 Organization *
               </label>
+
               <input
                 type="text"
                 name="organization"
@@ -99,6 +104,7 @@ export default function Contact() {
               <label className="block text-sm font-medium text-slate-700 mb-2">
                 Website
               </label>
+
               <input
                 type="url"
                 name="website"
@@ -132,6 +138,7 @@ export default function Contact() {
                 name="updates"
                 className="mt-1"
               />
+
               <span className="text-slate-700">
                 I would like to receive DSAINT project updates and news.
               </span>
@@ -144,8 +151,18 @@ export default function Contact() {
                 required
                 className="mt-1"
               />
+
               <span className="text-slate-700">
-                I have read and accept the Privacy Policy. *
+                I have read and accept the{" "}
+                <a
+                  href="/docs/dsaint-privacy-policy.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sky-600 underline hover:text-sky-800"
+                >
+                  Privacy Policy
+                </a>
+                . *
               </span>
             </label>
 

@@ -1,5 +1,5 @@
-import Image from "next/image";
-import LanguageSwitcher from "./LanguageSwitcher";
+import Image from 'next/image';
+import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Navbar() {
   return (
@@ -51,13 +51,6 @@ export default function Navbar() {
             </a>
 
             <a
-              href="#technology"
-              className="hover:text-blue-700 transition-colors"
-            >
-              Technology
-            </a>
-
-            <a
               href="#roadmap"
               className="hover:text-blue-700 transition-colors"
             >
@@ -69,13 +62,6 @@ export default function Navbar() {
               className="hover:text-blue-700 transition-colors"
             >
               Network
-            </a>
-
-            <a
-              href="#governance"
-              className="hover:text-blue-700 transition-colors"
-            >
-              Governance
             </a>
 
             <a
@@ -92,12 +78,12 @@ export default function Navbar() {
               Contact
             </a>
 
+            {/* Language Selector */}
             <div className="ml-2 pl-4 border-l border-slate-300">
               <LanguageSwitcher />
             </div>
 
           </div>
-
         </div>
       </div>
     </nav>

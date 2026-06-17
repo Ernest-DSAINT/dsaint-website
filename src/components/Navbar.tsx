@@ -7,19 +7,19 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
 
           {/* Logo */}
-          <a href="#" className="flex items-center">
+          <a href="#vision" className="flex items-center">
             <Image
               src="/images/dsaint-logo-horizontal.png"
               alt="DSAINT"
-              width={320}
-              height={80}
+              width={1200}
+              height={300}
               priority
-              className="h-14 w-auto"
+              className="h-12 w-auto"
             />
           </a>
 
           {/* Navigation */}
-          <div className="hidden xl:flex items-center gap-5 text-sm font-semibold text-slate-700">
+          <div className="hidden xl:flex items-center gap-8 text-sm font-semibold text-slate-700">
 
             <a
               href="#vision"
@@ -91,15 +91,8 @@ export default function Navbar() {
               Contact
             </a>
 
-            {/* CTA Button */}
-            <a
-              href="#contact"
-              className="ml-2 px-5 py-2.5 bg-blue-700 text-white rounded-xl shadow hover:bg-blue-800 transition-colors"
-            >
-              Become a Partner
-            </a>
-
           </div>
+
         </div>
       </div>
     </nav>

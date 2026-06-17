@@ -43,21 +43,17 @@ export default function LanguageSwitcher() {
           transition
         "
       >
-        <span className="text-lg">🇺🇸</span>
-        <span className="font-semibold">US</span>
+        <span className="text-xl">🇺🇸</span>
         <span className="text-xs">▼</span>
       </button>
 
       {open && (
         <div
           className="
-            absolute
-            right-0
-            mt-2
+            absolute right-0 mt-2
             w-32
             rounded-xl
-            border
-            border-slate-200
+            border border-slate-200
             bg-white
             shadow-xl
             overflow-hidden

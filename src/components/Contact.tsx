@@ -151,15 +151,8 @@ export default function Contact() {
 
           </div>
 
-          {/* Footer */}
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 pt-4">
-
-            <div className="text-slate-600">
-              Prefer email?{" "}
-              <span className="font-semibold text-sky-700">
-                dsaint.eu@gmail.com
-              </span>
-            </div>
+          {/* Submit Button */}
+          <div className="flex justify-end pt-4">
 
             <button
               type="submit"

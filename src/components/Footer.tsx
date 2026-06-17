@@ -17,7 +17,7 @@ export default function Footer() {
             </div>
 
             <div className="text-slate-500 text-sm mt-2">
-              Concept Development Document
+              Securing Germany&apos;s Digital Future Through Distributed Sovereign AI Infrastructure
             </div>
 
           </div>
@@ -41,6 +41,15 @@ export default function Footer() {
               className="text-slate-400 hover:text-cyan-400 transition"
             >
               Impressum
+            </a>
+
+            <a
+              href="/docs/dsaint-terms-of-use.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-cyan-400 transition"
+            >
+              Terms of Use
             </a>
 
             <a

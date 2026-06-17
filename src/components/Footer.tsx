@@ -5,7 +5,7 @@ export default function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
 
-          {/* Company Information */}
+          {/* DSAINT Information */}
           <div className="text-center md:text-left">
 
             <div className="text-xl font-bold mb-2">
@@ -32,6 +32,15 @@ export default function Footer() {
               className="text-slate-400 hover:text-cyan-400 transition"
             >
               Privacy Policy
+            </a>
+
+            <a
+              href="/docs/dsaint-impressum.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-cyan-400 transition"
+            >
+              Impressum
             </a>
 
             <a

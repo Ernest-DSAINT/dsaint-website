@@ -1,81 +1,63 @@
-import Image from "next/image";
-
 export default function Footer() {
   return (
-    <footer className="bg-slate-950 text-white py-20">
-      <div className="max-w-7xl mx-auto px-6">
+    <footer className="bg-slate-950 text-white border-t border-slate-800">
+      <div className="max-w-7xl mx-auto px-6 py-12">
 
-        <div className="flex flex-col items-center text-center">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-8">
 
-          {/* Logo */}
-          <Image
-            src="/images/dsaint-logo-horizontal.png"
-            alt="DSAINT"
-            width={320}
-            height={90}
-            className="h-16 w-auto mb-8"
-          />
+          {/* Company Information */}
+          <div className="text-center md:text-left">
 
-          {/* Company Name */}
-          <h3 className="text-4xl font-bold mb-4">
-            DSAINT
-          </h3>
+            <div className="text-xl font-bold mb-2">
+              DSAINT
+            </div>
 
-          {/* Tagline */}
-          <p className="text-xl text-slate-300 max-w-4xl mb-6">
-            Securing Germany's Digital Future Through Distributed Sovereign AI Infrastructure
-          </p>
+            <div className="text-slate-400 text-sm">
+              Distributed Sovereign AI Infrastructure Nodes Technology
+            </div>
 
-          {/* Description */}
-          <p className="max-w-3xl text-slate-400 mb-10">
-            Distributed Sovereign AI Infrastructure Nodes Technology.
-            Building Germany's Sovereign AI Infrastructure Backbone through
-            secure, scalable, and sustainable infrastructure development.
-          </p>
+            <div className="text-slate-500 text-sm mt-2">
+              Concept Development Document
+            </div>
 
-          {/* Quick Navigation */}
-          <div className="flex flex-wrap justify-center gap-6 mb-10 text-slate-300">
+          </div>
 
-            <a href="#vision" className="hover:text-white transition">
-              Vision
+          {/* Footer Navigation */}
+          <div className="flex flex-wrap justify-center gap-6 text-sm">
+
+            <a
+              href="/docs/dsaint-privacy-policy.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-400 hover:text-cyan-400 transition"
+            >
+              Privacy Policy
             </a>
 
-            <a href="#architecture" className="hover:text-white transition">
-              Architecture
-            </a>
-
-            <a href="#node" className="hover:text-white transition">
-              Node 01
-            </a>
-
-            <a href="#technology" className="hover:text-white transition">
-              Technology
-            </a>
-
-            <a href="#roadmap" className="hover:text-white transition">
-              Roadmap
-            </a>
-
-            <a href="#contact" className="hover:text-white transition">
+            <a
+              href="#contact"
+              className="text-slate-400 hover:text-cyan-400 transition"
+            >
               Contact
             </a>
 
           </div>
 
-          {/* Divider */}
-          <div className="w-full border-t border-slate-800 mb-8" />
+        </div>
 
-          {/* Disclaimer */}
-          <p className="text-sm text-slate-500">
+        {/* Divider */}
+        <div className="border-t border-slate-800 mt-8 pt-8 text-center">
+
+          <p className="text-slate-500 text-sm">
+            © 2026 DSAINT · Distributed Sovereign AI Infrastructure Nodes Technology
+          </p>
+
+          <p className="text-slate-600 text-xs mt-2">
             Concept Development Document – not an offer of securities or investment solicitation.
           </p>
 
-          {/* Copyright */}
-          <p className="text-sm text-slate-600 mt-3">
-            © 2026 DSAINT – Distributed Sovereign AI Infrastructure Nodes Technology
-          </p>
-
         </div>
+
       </div>
     </footer>
   );

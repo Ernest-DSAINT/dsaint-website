@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
 
 export default function LanguageSwitcher() {
   const [open, setOpen] = useState(false);
@@ -36,16 +35,17 @@ export default function LanguageSwitcher() {
         className="
           flex items-center gap-2
           rounded-lg
-          border border-cyan-400/30
-          bg-slate-900/50
+          border border-slate-300
+          bg-white
           px-3 py-2
-          text-white
-          hover:border-cyan-400
+          text-sm
+          text-slate-700
+          hover:border-blue-500
+          hover:text-blue-700
           transition
         "
       >
-        🇬🇧 English
-        <ChevronDown size={16} />
+        🇬🇧 English ▼
       </button>
 
       {open && (
@@ -53,9 +53,9 @@ export default function LanguageSwitcher() {
           className="
             absolute right-0 mt-2 w-56
             rounded-xl
-            border border-cyan-400/20
-            bg-slate-900
-            shadow-2xl
+            border border-slate-200
+            bg-white
+            shadow-xl
             overflow-hidden
             z-50
           "
@@ -69,8 +69,9 @@ export default function LanguageSwitcher() {
               className="
                 flex items-center gap-3
                 px-4 py-3
-                text-white
-                hover:bg-cyan-500/10
+                text-slate-700
+                hover:bg-blue-50
+                hover:text-blue-700
               "
             >
               <span>{lang.flag}</span>

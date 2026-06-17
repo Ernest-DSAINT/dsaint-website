@@ -90,7 +90,6 @@ return ( <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-bl
           Contact
         </a>
 
-        {/* Language Selector */}
         <div className="ml-2 pl-4 border-l border-slate-300">
           <LanguageSwitcher />
         </div>

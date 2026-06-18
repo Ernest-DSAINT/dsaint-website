@@ -63,8 +63,6 @@ export default function LanguageSwitcher() {
             <a
               key={lang.code}
               href={lang.url}
-              target="_blank"
-              rel="noopener noreferrer"
               className="
                 block
                 px-4

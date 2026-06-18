@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -92,25 +92,41 @@ export default function Hero() {
         </h1>
 
         {/* Description */}
-        <p className="text-center text-lg md:text-xl text-slate-700 max-w-5xl mx-auto mb-12 leading-relaxed">
-          DSAINT develops a distributed network of secure, sustainable,
-          and AI-optimized infrastructure nodes designed to strengthen
-          Germany&apos;s digital sovereignty and support Europe&apos;s next
-          generation of AI innovation.
+        <p className="text-center text-lg md:text-xl text-slate-700 max-w-5xl mx-auto mb-8 leading-relaxed">
+          DSAINT is a distributed sovereign AI infrastructure movement
+          that combines professional infrastructure ownership with
+          citizen participation through Reverse Co-Hosting.
+          By connecting core infrastructure nodes, research institutions,
+          industry, municipalities and community-operated AI nodes,
+          DSAINT enables everyone to contribute to Germany&apos;s
+          independent AI future.
         </p>
+
+        {/* Official Slogan */}
+        <div className="max-w-5xl mx-auto mb-12">
+          <p className="text-center text-2xl md:text-3xl font-semibold text-sky-700 italic">
+            Reverse co-hosting is the future of Germany&apos;s independent AI –
+            a future in which everyone can participate.
+          </p>
+        </div>
 
         {/* Network Status */}
         <div className="flex flex-wrap justify-center gap-4 mb-16">
+
           <div className="px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 font-medium">
             Node 01 • Bedburg-Hau
           </div>
 
           <div className="px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 font-medium">
-            12 German Nodes
+            12 German Core Nodes
           </div>
 
           <div className="px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 font-medium">
-            Tier III Architecture
+            Citizen Node Program
+          </div>
+
+          <div className="px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 font-medium">
+            Reverse Co-Hosting
           </div>
 
           <div className="px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 font-medium">
@@ -120,6 +136,7 @@ export default function Hero() {
           <div className="px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 font-medium">
             Sovereign AI Infrastructure
           </div>
+
         </div>
 
         {/* KPI Cards */}
@@ -154,10 +171,10 @@ export default function Hero() {
 
           <div className="bg-white/90 backdrop-blur rounded-3xl shadow-xl p-8 text-center border border-sky-100">
             <div className="text-5xl font-bold text-sky-600 mb-2">
-              €43M
+              Layer 4
             </div>
             <div className="text-slate-600 font-medium">
-              Estimated CAPEX
+              Community Compute Federation
             </div>
           </div>
 
@@ -180,6 +197,22 @@ export default function Hero() {
             "
           >
             Explore Demonstrator Node 01
+          </a>
+
+          <a
+            href="#ecosystem"
+            className="
+              px-8 py-4
+              bg-cyan-600
+              text-white
+              rounded-xl
+              font-semibold
+              shadow-lg
+              hover:bg-cyan-700
+              transition
+            "
+          >
+            Discover Citizen Nodes
           </a>
 
           <a

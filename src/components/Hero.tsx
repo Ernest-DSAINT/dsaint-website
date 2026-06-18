@@ -43,15 +43,15 @@ export default function Hero() {
         className="
           absolute
           inset-0
-          opacity-10
-          bg-center
+          opacity-15
+          bg-cover
           bg-no-repeat
-          bg-contain
           pointer-events-none
         "
         style={{
           backgroundImage:
             "url('/images/europe-network-background.png')",
+          backgroundPosition: 'center top',
         }}
       />
 
@@ -108,138 +108,6 @@ export default function Hero() {
             Reverse co-hosting is the future of Germany&apos;s independent AI –
             a future in which everyone can participate.
           </p>
-        </div>
-
-        {/* Network Status */}
-        <div className="flex flex-wrap justify-center gap-4 mb-16">
-
-          <div className="px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 font-medium">
-            Node 01 • Bedburg-Hau
-          </div>
-
-          <div className="px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 font-medium">
-            12 German Core Nodes
-          </div>
-
-          <div className="px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 font-medium">
-            Citizen Node Program
-          </div>
-
-          <div className="px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 font-medium">
-            Reverse Co-Hosting
-          </div>
-
-          <div className="px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 font-medium">
-            Target PUE ≤ 1.20
-          </div>
-
-          <div className="px-4 py-2 rounded-full bg-cyan-100 text-cyan-800 font-medium">
-            Sovereign AI Infrastructure
-          </div>
-
-        </div>
-
-        {/* KPI Cards */}
-        <div className="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto mb-16">
-
-          <div className="bg-white/90 backdrop-blur rounded-3xl shadow-xl p-8 text-center border border-sky-100">
-            <div className="text-5xl font-bold text-sky-600 mb-2">
-              2 MW
-            </div>
-            <div className="text-slate-600 font-medium">
-              Initial Capacity
-            </div>
-          </div>
-
-          <div className="bg-white/90 backdrop-blur rounded-3xl shadow-xl p-8 text-center border border-sky-100">
-            <div className="text-5xl font-bold text-sky-600 mb-2">
-              6 MW
-            </div>
-            <div className="text-slate-600 font-medium">
-              Expansion Ready
-            </div>
-          </div>
-
-          <div className="bg-white/90 backdrop-blur rounded-3xl shadow-xl p-8 text-center border border-sky-100">
-            <div className="text-5xl font-bold text-sky-600 mb-2">
-              Tier III
-            </div>
-            <div className="text-slate-600 font-medium">
-              Infrastructure Standard
-            </div>
-          </div>
-
-          <div className="bg-white/90 backdrop-blur rounded-3xl shadow-xl p-8 text-center border border-sky-100">
-            <div className="text-5xl font-bold text-sky-600 mb-2">
-              Layer 4
-            </div>
-            <div className="text-slate-600 font-medium">
-              Community Compute Federation
-            </div>
-          </div>
-
-        </div>
-
-        {/* CTA Buttons */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
-
-          <a
-            href="#node"
-            className="
-              px-8 py-4
-              bg-blue-700
-              text-white
-              rounded-xl
-              font-semibold
-              shadow-lg
-              hover:bg-blue-800
-              transition
-            "
-          >
-            Explore Demonstrator Node 01
-          </a>
-
-          <a
-            href="#ecosystem"
-            className="
-              px-8 py-4
-              bg-cyan-600
-              text-white
-              rounded-xl
-              font-semibold
-              shadow-lg
-              hover:bg-cyan-700
-              transition
-            "
-          >
-            Discover Citizen Nodes
-          </a>
-
-          <a
-            href="/docs/dsaint-concept-development-document.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="
-              px-8 py-4
-              border border-blue-700
-              text-blue-700
-              rounded-xl
-              font-semibold
-              hover:bg-blue-50
-              transition
-            "
-          >
-            Download Concept Document
-          </a>
-
-        </div>
-
-        {/* Core Values */}
-        <div className="flex flex-wrap justify-center gap-8 text-slate-700 font-medium text-lg">
-          <span>🔒 Secure</span>
-          <span>🇪🇺 Sovereign</span>
-          <span>📈 Scalable</span>
-          <span>🌱 Sustainable</span>
         </div>
 
       </div>

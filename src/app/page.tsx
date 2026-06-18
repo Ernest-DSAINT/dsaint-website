@@ -6,14 +6,14 @@ import InvestmentCase from "../components/InvestmentCase";
 import Vision from "../components/Vision";
 import Ecosystem from "../components/Ecosystem";
 import Architecture from "../components/Architecture";
-import Node01 from "../components/Node01";
 import Technology from "../components/Technology";
 import Sustainability from "../components/Sustainability";
+import Node01 from "../components/Node01";
+import Governance from "../components/Governance";
 import Roadmap from "../components/Roadmap";
 import NetworkVision from "../components/NetworkVision";
-import Governance from "../components/Governance";
-import Resources from "../components/Resources";
 import Partnerships from "../components/Partnerships";
+import Resources from "../components/Resources";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -37,21 +37,21 @@ export default function Home() {
 
         <Architecture />
 
-        <Node01 />
-
         <Technology />
 
         <Sustainability />
+
+        <Node01 />
+
+        <Governance />
 
         <Roadmap />
 
         <NetworkVision />
 
-        <Governance />
+        <Partnerships />
 
         <Resources />
-
-        <Partnerships />
 
         <Contact />
       </main>

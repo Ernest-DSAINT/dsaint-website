@@ -5,6 +5,7 @@ import Challenge from "../components/Challenge";
 import InvestmentCase from "../components/InvestmentCase";
 import Vision from "../components/Vision";
 import Ecosystem from "../components/Ecosystem";
+import CitizenNode from "../components/CitizenNode";
 import Architecture from "../components/Architecture";
 import Technology from "../components/Technology";
 import Sustainability from "../components/Sustainability";
@@ -34,6 +35,8 @@ export default function Home() {
         <Vision />
 
         <Ecosystem />
+
+        <CitizenNode />
 
         <Architecture />
 

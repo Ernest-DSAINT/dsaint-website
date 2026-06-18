@@ -10,69 +10,131 @@ export default function NetworkVision() {
 
         {/* Header */}
         <div className="text-center mb-20">
+
           <h2 className="text-5xl font-bold text-slate-900 mb-6">
-            European Network Vision
+            Sovereign AI Network Vision
           </h2>
 
-          <p className="max-w-4xl mx-auto text-xl text-slate-600">
-            Demonstrator Node 01 is designed as the foundation for a future
-            distributed network of sovereign AI infrastructure nodes across
-            Germany and Europe.
+          <p className="max-w-5xl mx-auto text-xl text-slate-600 leading-relaxed">
+            DSAINT combines environmentally friendly Core Infrastructure
+            Nodes, Community Compute Federation participants and trusted
+            institutional partners into a distributed sovereign AI ecosystem
+            designed for Germany and future European expansion.
           </p>
+
         </div>
 
-        {/* Europe Map */}
+        {/* Network Map */}
         <div className="bg-white rounded-3xl shadow-xl overflow-hidden mb-16">
+
           <Image
             src="/images/europe-network-map.png"
-            alt="DSAINT European Network Vision"
+            alt="DSAINT Sovereign AI Network"
             width={1600}
             height={900}
             className="w-full h-auto"
           />
+
         </div>
 
         {/* Vision Cards */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
 
-          <div className="bg-white rounded-3xl shadow-lg p-8 text-center">
-            <div className="text-5xl mb-4">🏗️</div>
+          {/* Core Nodes */}
+          <div className="bg-white rounded-3xl shadow-lg p-8 text-center border border-sky-100">
+
+            <div className="text-5xl mb-4">
+              🏗️
+            </div>
 
             <h3 className="text-2xl font-bold text-slate-900 mb-4">
-              Demonstrator Node 01
+              Core Infrastructure Nodes
             </h3>
 
             <p className="text-slate-600">
-              Bedburg-Hau serves as the first DSAINT node and blueprint
-              for future sovereign AI infrastructure deployment.
+              Twelve environmentally friendly Tier III
+              AI-optimized infrastructure nodes form the
+              sovereign backbone of the DSAINT ecosystem.
             </p>
+
           </div>
 
-          <div className="bg-white rounded-3xl shadow-lg p-8 text-center">
-            <div className="text-5xl mb-4">🇩🇪</div>
+          {/* Citizen Nodes */}
+          <div className="bg-white rounded-3xl shadow-lg p-8 text-center border border-sky-100">
+
+            <div className="text-5xl mb-4">
+              🏠
+            </div>
 
             <h3 className="text-2xl font-bold text-slate-900 mb-4">
-              German Expansion
+              Citizen AI Nodes
             </h3>
 
             <p className="text-slate-600">
-              Future nodes across Germany create a distributed,
-              resilient and sovereign AI infrastructure backbone.
+              Thousands of Community Compute Federation
+              participants contribute computing resources
+              through the Reverse Co-Hosting model.
             </p>
+
           </div>
 
-          <div className="bg-white rounded-3xl shadow-lg p-8 text-center">
-            <div className="text-5xl mb-4">🇪🇺</div>
+          {/* Institutional Partners */}
+          <div className="bg-white rounded-3xl shadow-lg p-8 text-center border border-sky-100">
+
+            <div className="text-5xl mb-4">
+              🎓
+            </div>
 
             <h3 className="text-2xl font-bold text-slate-900 mb-4">
-              European Vision
+              Institutional Partners
             </h3>
 
             <p className="text-slate-600">
-              Long-term expansion into a European network supporting
-              digital sovereignty and infrastructure resilience.
+              Municipalities, enterprises, universities
+              and research institutions collaborate through
+              secure sovereign infrastructure.
             </p>
+
           </div>
+
+          {/* European Federation */}
+          <div className="bg-white rounded-3xl shadow-lg p-8 text-center border border-sky-100">
+
+            <div className="text-5xl mb-4">
+              🇪🇺
+            </div>
+
+            <h3 className="text-2xl font-bold text-slate-900 mb-4">
+              European Federation
+            </h3>
+
+            <p className="text-slate-600">
+              Long-term expansion connects national
+              sovereign AI ecosystems into a resilient
+              European infrastructure federation.
+            </p>
+
+          </div>
+
+        </div>
+
+        {/* Network Vision Panel */}
+        <div className="mt-16 bg-slate-900 rounded-3xl p-12 text-center">
+
+          <h3 className="text-3xl font-bold text-white mb-6">
+            From Bedburg-Hau to Europe
+          </h3>
+
+          <p className="max-w-5xl mx-auto text-xl text-slate-300 leading-relaxed">
+            Demonstrator Node 01 in Bedburg-Hau is the first building block
+            of a distributed sovereign AI ecosystem.
+            <br />
+            <br />
+            DSAINT's long-term vision combines Core Infrastructure Nodes,
+            Community Compute Federation participants and trusted institutional
+            partners into a secure, resilient and scalable AI network that
+            strengthens digital sovereignty across Germany and Europe.
+          </p>
 
         </div>
 

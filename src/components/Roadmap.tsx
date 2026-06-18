@@ -5,39 +5,47 @@ export default function Roadmap() {
       title: "Demonstrator Node 01",
       subtitle: "Bedburg-Hau, Germany",
       description:
-        "Launch of the first DSAINT sovereign AI infrastructure node with 2 MW initial capacity and expansion capability up to 6 MW.",
+        "Launch of the first DSAINT Core Infrastructure Node with 2 MW initial capacity, expansion capability up to 6 MW and Tier III AI-optimized design.",
       icon: "🏗️",
     },
     {
       year: "2028",
-      title: "3 German Nodes",
-      subtitle: "Regional Expansion",
+      title: "Core Network Expansion",
+      subtitle: "3 German Nodes",
       description:
-        "Replication of the DSAINT model across strategically selected municipalities in Germany.",
+        "Replication of the DSAINT model across strategically selected municipalities and establishment of the first interconnected sovereign AI infrastructure network.",
       icon: "🇩🇪",
     },
     {
-      year: "2032",
-      title: "6 German Nodes",
-      subtitle: "National Infrastructure Network",
+      year: "2030",
+      title: "Citizen Node Program",
+      subtitle: "Reverse Co-Hosting Launch",
       description:
-        "Creation of a distributed sovereign AI infrastructure backbone supporting research, industry and public sector workloads.",
+        "Introduction of the DSAINT Community Compute Federation, enabling citizens, SMEs and startups to participate directly in Germany's sovereign AI future.",
+      icon: "🏠",
+    },
+    {
+      year: "2032",
+      title: "National AI Ecosystem",
+      subtitle: "6 German Core Nodes",
+      description:
+        "Integration of municipalities, enterprises, universities and research institutions into a distributed sovereign AI ecosystem supported by Core Nodes and Citizen Nodes.",
       icon: "⚡",
     },
     {
       year: "2036",
       title: "12 Core Nodes",
-      subtitle: "National Scale",
+      subtitle: "Germany-Wide Infrastructure",
       description:
-        "Formation of a resilient multi-node infrastructure ecosystem across Germany with advanced operational integration.",
+        "Completion of the 12-node German Core Infrastructure Network and large-scale deployment of Community Compute Federation participants.",
       icon: "🌐",
     },
     {
       year: "2040",
       title: "European Expansion",
-      subtitle: "Cross-Border Network",
+      subtitle: "Sovereign AI Federation",
       description:
-        "Expansion of the DSAINT concept into a distributed European sovereign AI infrastructure platform.",
+        "Expansion of the DSAINT model into a distributed European sovereign AI infrastructure platform connecting nations, communities, research institutions and enterprises.",
       icon: "🇪🇺",
     },
   ];
@@ -51,20 +59,22 @@ export default function Roadmap() {
 
         {/* Header */}
         <div className="text-center mb-20">
+
           <h2 className="text-5xl font-bold text-slate-900 mb-6">
-            European Expansion Roadmap
+            DSAINT Development Roadmap
           </h2>
 
           <p className="max-w-4xl mx-auto text-xl text-slate-600">
-            A phased strategy for developing a distributed sovereign AI
-            infrastructure network across Germany and Europe.
+            A phased strategy for building Germany&apos;s sovereign AI
+            infrastructure backbone through Core Infrastructure Nodes,
+            Community Compute Federation participants and trusted ecosystem partners.
           </p>
+
         </div>
 
         {/* Timeline */}
         <div className="relative">
 
-          {/* Vertical Line */}
           <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-blue-200 transform -translate-x-1/2 hidden md:block" />
 
           <div className="space-y-16">
@@ -80,6 +90,7 @@ export default function Roadmap() {
               >
                 {/* Content */}
                 <div className="md:w-1/2 p-4">
+
                   <div className="bg-white rounded-3xl shadow-lg p-8 hover:shadow-xl transition">
 
                     <div className="text-5xl mb-4">
@@ -103,6 +114,7 @@ export default function Roadmap() {
                     </p>
 
                   </div>
+
                 </div>
 
                 {/* Timeline Dot */}
@@ -116,6 +128,7 @@ export default function Roadmap() {
             ))}
 
           </div>
+
         </div>
 
         {/* Vision Panel */}
@@ -125,11 +138,16 @@ export default function Roadmap() {
             Long-Term Vision
           </h3>
 
-          <p className="max-w-4xl mx-auto text-xl text-slate-300">
-            DSAINT aims to establish a distributed network of sovereign AI
-            infrastructure nodes that strengthens digital sovereignty,
-            infrastructure resilience and technological leadership across
-            Germany and Europe.
+          <p className="max-w-5xl mx-auto text-xl text-slate-300 leading-relaxed">
+            Reverse co-hosting is the future of Germany&apos;s independent AI –
+            a future in which everyone can participate.
+            <br />
+            <br />
+            DSAINT aims to combine environmentally friendly Core Infrastructure
+            Nodes with a nationwide Community Compute Federation, creating
+            a resilient sovereign AI ecosystem that strengthens digital sovereignty,
+            infrastructure resilience and technological leadership across Germany
+            and Europe.
           </p>
 
         </div>

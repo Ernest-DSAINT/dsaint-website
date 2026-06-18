@@ -26,7 +26,7 @@ export default function Navbar() {
               href="#vision"
               className="hover:text-blue-700 transition-colors"
             >
-              Vision
+              Home
             </a>
 
             <a
@@ -78,12 +78,13 @@ export default function Navbar() {
               Contact
             </a>
 
-            {/* Language Selector */}
+            {/* Language Switcher */}
             <div className="ml-2 pl-4 border-l border-slate-300">
               <LanguageSwitcher />
             </div>
 
           </div>
+
         </div>
       </div>
     </nav>

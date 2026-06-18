@@ -1,11 +1,11 @@
 export default function Ecosystem() {
   const layers = [
     {
-      icon: "🏢",
+      icon: "🏗️",
       title: "Layer 1",
-      subtitle: "Sovereign Infrastructure Core Nodes",
+      subtitle: "Core Infrastructure Network",
       description:
-        "The national AI infrastructure backbone consisting of strategically located DSAINT Core Nodes providing secure, resilient and sovereign AI-ready infrastructure.",
+        "Twelve environmentally friendly Tier III AI-optimized Core Nodes form the sovereign backbone of the DSAINT ecosystem. These facilities provide low-latency AI services, infrastructure orchestration and secure network operations.",
       color: "bg-blue-50 border-blue-600",
     },
     {
@@ -13,7 +13,7 @@ export default function Ecosystem() {
       title: "Layer 2",
       subtitle: "Research & Innovation Nodes",
       description:
-        "Universities, research institutes and HPC facilities connected to the DSAINT ecosystem to accelerate scientific research, AI development and technological innovation.",
+        "Universities, research institutes and HPC facilities connected to the DSAINT ecosystem accelerate scientific research, AI development, digital twin modeling and technological innovation.",
       color: "bg-sky-50 border-sky-500",
     },
     {
@@ -21,15 +21,15 @@ export default function Ecosystem() {
       title: "Layer 3",
       subtitle: "Industrial & Enterprise Nodes",
       description:
-        "Manufacturing companies, utilities, hospitals and enterprise operators deploying AI infrastructure for commercial and industrial applications.",
+        "Manufacturing companies, utilities, healthcare providers and enterprise operators deploy AI infrastructure for commercial, industrial and mission-critical applications.",
       color: "bg-green-50 border-green-600",
     },
     {
-      icon: "🌍",
+      icon: "🏠",
       title: "Layer 4",
-      subtitle: "DSAINT Community Compute Federation",
+      subtitle: "Community Compute Federation",
       description:
-        "A trusted ecosystem enabling citizens, SMEs, startups and home AI operators to participate in Germany's future sovereign AI infrastructure network through distributed compute resources, innovation initiatives and digital collaboration.",
+        "The Community Compute Federation connects Citizen AI Nodes through the Reverse Co-Hosting model. Inspired by the anthill principle, thousands of participants contribute computing resources while receiving compensation based on their measured contribution to the network.",
       color: "bg-yellow-50 border-yellow-500",
     },
   ];
@@ -43,15 +43,17 @@ export default function Ecosystem() {
 
         {/* Header */}
         <div className="text-center mb-20">
+
           <h2 className="text-5xl font-bold text-slate-900 mb-6">
             DSAINT Ecosystem
           </h2>
 
-          <p className="max-w-4xl mx-auto text-xl text-slate-600">
-            DSAINT is designed as a multi-layer ecosystem connecting
-            infrastructure, research, industry and communities into
-            a resilient national AI platform.
+          <p className="max-w-5xl mx-auto text-xl text-slate-600">
+            DSAINT is designed as a multi-layer sovereign AI ecosystem
+            connecting infrastructure, research, industry and citizens
+            into a resilient national AI platform.
           </p>
+
         </div>
 
         {/* Ecosystem Layers */}
@@ -77,25 +79,37 @@ export default function Ecosystem() {
               <p className="text-slate-700 leading-relaxed">
                 {layer.description}
               </p>
+
             </div>
           ))}
 
         </div>
 
-        {/* Community Federation Highlight */}
+        {/* Reverse Co-Hosting */}
         <div className="mt-16 bg-gradient-to-r from-yellow-50 to-amber-50 border border-yellow-200 rounded-3xl p-10">
 
           <div className="text-center mb-10">
 
             <h3 className="text-3xl font-bold text-slate-900 mb-4">
-              DSAINT Community Compute Federation
+              Reverse Co-Hosting
             </h3>
 
-            <p className="max-w-4xl mx-auto text-lg text-slate-600">
-              The long-term vision extends beyond infrastructure ownership.
-              DSAINT aims to create a trusted ecosystem where communities,
-              startups and small businesses can contribute to Germany&apos;s
-              future sovereign AI capabilities.
+            <p className="max-w-5xl mx-auto text-lg text-slate-600 leading-relaxed">
+              Reverse co-hosting is the future of Germany&apos;s independent AI –
+              a future in which everyone can participate.
+              <br />
+              <br />
+              Instead of renting infrastructure space to customers,
+              DSAINT enables citizens, startups and organizations
+              to host secure Citizen AI Nodes and contribute computing
+              resources to Germany&apos;s sovereign AI ecosystem.
+              <br />
+              <br />
+              Inspired by the anthill principle, thousands of small
+              contributions combine into a powerful collective resource
+              capable of supporting AI video generation, biochemical
+              simulations, scientific computing and other
+              compute-intensive workloads.
             </p>
 
           </div>
@@ -103,51 +117,59 @@ export default function Ecosystem() {
           <div className="grid md:grid-cols-4 gap-6">
 
             <div className="bg-white rounded-2xl p-6 shadow text-center">
-              <div className="text-4xl mb-3">👨‍👩‍👧‍👦</div>
+
+              <div className="text-4xl mb-3">🏠</div>
 
               <h4 className="font-bold mb-2">
-                Citizens
+                Citizen Nodes
               </h4>
 
               <p className="text-sm text-slate-600">
-                Participation in trusted digital infrastructure initiatives.
+                Host secure AI units and participate in Germany&apos;s sovereign AI future.
               </p>
+
             </div>
 
             <div className="bg-white rounded-2xl p-6 shadow text-center">
-              <div className="text-4xl mb-3">🏢</div>
+
+              <div className="text-4xl mb-3">🎬</div>
 
               <h4 className="font-bold mb-2">
-                SMEs
+                AI Video Generation
               </h4>
 
               <p className="text-sm text-slate-600">
-                Access to scalable AI infrastructure and innovation programs.
+                Affordable processing of high-compute creative workloads.
               </p>
+
             </div>
 
             <div className="bg-white rounded-2xl p-6 shadow text-center">
-              <div className="text-4xl mb-3">🚀</div>
+
+              <div className="text-4xl mb-3">🧬</div>
 
               <h4 className="font-bold mb-2">
-                Startups
+                Scientific Simulation
               </h4>
 
               <p className="text-sm text-slate-600">
-                Accelerated development through sovereign AI infrastructure access.
+                Distributed compute for biochemical and research workloads.
               </p>
+
             </div>
 
             <div className="bg-white rounded-2xl p-6 shadow text-center">
-              <div className="text-4xl mb-3">🖥️</div>
+
+              <div className="text-4xl mb-3">💶</div>
 
               <h4 className="font-bold mb-2">
-                Home AI Operators
+                Fair Compensation
               </h4>
 
               <p className="text-sm text-slate-600">
-                Future participation in a trusted distributed compute ecosystem.
+                Rewards based on measured contribution to the federation.
               </p>
+
             </div>
 
           </div>
@@ -158,14 +180,16 @@ export default function Ecosystem() {
         <div className="mt-20 bg-slate-900 rounded-3xl p-12 text-center">
 
           <h3 className="text-3xl font-bold text-white mb-6">
-            Germany&apos;s Future AI Ecosystem
+            Germany&apos;s Sovereign AI Federation
           </h3>
 
-          <p className="max-w-4xl mx-auto text-lg text-slate-300">
-            DSAINT aims to connect sovereign infrastructure, research
-            institutions, industry and communities into a distributed
-            ecosystem capable of supporting Germany&apos;s long-term AI
-            competitiveness and digital sovereignty.
+          <p className="max-w-5xl mx-auto text-lg text-slate-300 leading-relaxed">
+            DSAINT aims to connect Core Infrastructure Nodes,
+            Community Compute Federation participants,
+            municipalities, enterprises, universities and
+            research institutions into a resilient sovereign
+            AI ecosystem that strengthens Germany&apos;s digital
+            independence and technological leadership.
           </p>
 
         </div>

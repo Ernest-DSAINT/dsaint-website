@@ -2,22 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
+/* Global body styling */
 body {
   margin: 0;
   font-family: Inter, Arial, sans-serif;
+
   background: linear-gradient(
     180deg,
     #f8fbff 0%,
     #eef6ff 40%,
     #ffffff 100%
   );
+
   color: #0f172a;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-* {
+/* Consistent box sizing */
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+/* Better anchor navigation with fixed navbar */
+section {
+  scroll-margin-top: 100px;
+}
+
+/* Improve text selection */
+::selection {
+  background: #2563eb;
+  color: white;
+}
+
+/* Smooth image rendering */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Better focus visibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* Optional custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
 }

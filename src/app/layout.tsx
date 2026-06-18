@@ -3,32 +3,52 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
-  title: "DSAINT | Distributed Sovereign AI Infrastructure Nodes Technology",
+  title:
+    "DSAINT | Germany's Sovereign AI Infrastructure Ecosystem",
 
   description:
-    "Building Germany's Sovereign AI Infrastructure Backbone. DSAINT develops distributed sovereign AI infrastructure nodes designed to strengthen Germany's digital sovereignty and support Europe's next generation of AI innovation.",
+    "DSAINT (Distributed Sovereign AI Infrastructure Nodes Technology) combines environmentally friendly Core Infrastructure Nodes, Community Compute Federation participants and Reverse Co-Hosting to build Germany's sovereign AI future.",
 
   keywords: [
     "DSAINT",
-    "AI Infrastructure",
     "Sovereign AI",
+    "AI Infrastructure",
     "Germany",
+    "German AI",
     "European AI",
     "Digital Sovereignty",
-    "Data Center",
+    "Community Compute Federation",
+    "Reverse Co-Hosting",
+    "Citizen AI Nodes",
+    "AI Data Center",
     "AI Infrastructure Nodes",
+    "Distributed AI",
+    "AI Ecosystem",
+    "Tier III Data Center",
+    "Sustainable AI",
   ],
 
   openGraph: {
     title:
-      "DSAINT | Building Germany's Sovereign AI Infrastructure Backbone",
+      "DSAINT | Germany's Sovereign AI Infrastructure Ecosystem",
 
     description:
-      "Distributed Sovereign AI Infrastructure Nodes Technology.",
+      "Reverse co-hosting is the future of Germany's independent AI – a future in which everyone can participate.",
 
     images: ["/images/dsaint-cover-page.png"],
 
     type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "DSAINT | Germany's Sovereign AI Infrastructure Ecosystem",
+
+    description:
+      "Core Infrastructure Nodes, Citizen AI Nodes and the Community Compute Federation.",
+
+    images: ["/images/dsaint-cover-page.png"],
   },
 };
 

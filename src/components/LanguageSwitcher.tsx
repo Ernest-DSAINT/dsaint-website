@@ -7,7 +7,7 @@ export default function LanguageSwitcher() {
 
   const languages = [
     {
-      code: 'US',
+      code: 'EN',
       url: 'https://dsaint.eu',
     },
     {
@@ -21,6 +21,10 @@ export default function LanguageSwitcher() {
     {
       code: 'ES',
       url: 'https://translate.google.com/translate?sl=en&tl=es&u=https://dsaint.eu',
+    },
+    {
+      code: 'UA',
+      url: 'https://translate.google.com/translate?sl=en&tl=uk&u=https://dsaint.eu',
     },
   ];
 
@@ -39,7 +43,7 @@ export default function LanguageSwitcher() {
           transition
         "
       >
-        <span className="font-semibold">US</span>
+        <span className="font-semibold">EN</span>
         <span className="text-xs">▼</span>
       </button>
 
@@ -63,6 +67,10 @@ export default function LanguageSwitcher() {
             <a
               key={lang.code}
               href={lang.url}
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.href = lang.url;
+              }}
               className="
                 block
                 px-4

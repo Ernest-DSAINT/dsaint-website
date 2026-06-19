@@ -157,7 +157,25 @@ export default function Contact() {
               />
 
               <span className="text-slate-700">
-                I would like to receive DSAINT project updates and news.
+                I would like to receive DSAINT project updates,
+                newsletters and information about future participation
+                opportunities. I understand that I can withdraw my
+                consent at any time.
+              </span>
+            </label>
+
+            <label className="flex items-start gap-3">
+              <input
+                type="checkbox"
+                name="citizenNodeInterest"
+                className="mt-1"
+              />
+
+              <span className="text-slate-700">
+                I am interested in participating in the future DSAINT
+                Community Compute Federation through a Citizen AI Node,
+                organizational node, research node or other
+                infrastructure contribution.
               </span>
             </label>
 

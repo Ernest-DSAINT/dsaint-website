@@ -77,11 +77,34 @@ export default function Hero() {
           />
         </div>
 
-        {/* Badge */}
+        {/* Concept Development Document Button */}
         <div className="flex justify-center mb-8">
-          <div className="px-6 py-2 rounded-full border border-yellow-500 bg-white/90 text-yellow-700 font-semibold shadow-sm">
-            Concept Development Document
-          </div>
+          <a
+            href="/docs/dsaint-project-overview.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+              inline-flex
+              items-center
+              gap-2
+              px-6
+              py-3
+              rounded-full
+              border
+              border-yellow-500
+              bg-white/90
+              text-yellow-700
+              font-semibold
+              shadow-sm
+              hover:bg-yellow-50
+              hover:shadow-lg
+              hover:scale-105
+              transition-all
+              duration-300
+            "
+          >
+            📄 Concept Development Document
+          </a>
         </div>
 
         {/* Headline */}

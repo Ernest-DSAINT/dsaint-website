@@ -6,10 +6,10 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-6">
 
-        <div className="flex items-center justify-between h-20">
+        <div className="relative flex items-center justify-between h-20">
 
           {/* Logo */}
-          <a href="#vision" className="flex items-center">
+          <a href="#vision" className="flex items-center z-10">
             <Image
               src="/images/dsaint-logo-horizontal.png"
               alt="DSAINT"
@@ -21,8 +21,14 @@ export default function Navbar() {
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden xl:flex items-center gap-8 text-sm font-semibold text-slate-700">
-
+          <div
+            className="
+              hidden xl:flex
+              absolute left-1/2 -translate-x-1/2
+              items-center gap-8
+              text-sm font-semibold text-slate-700
+            "
+          >
             <a
               href="#vision"
               className="hover:text-blue-700 transition-colors"
@@ -66,24 +72,16 @@ export default function Navbar() {
             </a>
 
             <a
-              href="#partnerships"
-              className="hover:text-blue-700 transition-colors"
-            >
-              Partners
-            </a>
-
-            <a
               href="#contact"
               className="hover:text-blue-700 transition-colors"
             >
               Contact
             </a>
+          </div>
 
-            {/* Language Switcher */}
-            <div className="ml-2 pl-4 border-l border-slate-300">
-              <LanguageSwitcher />
-            </div>
-
+          {/* Language Switcher */}
+          <div className="z-10">
+            <LanguageSwitcher />
           </div>
 
         </div>

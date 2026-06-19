@@ -28,6 +28,12 @@ export const metadata: Metadata = {
     "Sustainable AI",
   ],
 
+  icons: {
+    icon: "/images/favicon.ico",
+    shortcut: "/images/favicon.ico",
+    apple: "/images/favicon.ico",
+  },
+
   openGraph: {
     title:
       "DSAINT | Germany's Sovereign AI Infrastructure Ecosystem",

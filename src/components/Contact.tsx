@@ -9,11 +9,34 @@ export default function Contact() {
             Contact DSAINT
           </h2>
 
-          <p className="text-xl text-slate-600 leading-relaxed">
+          <p className="text-xl text-slate-600 leading-relaxed mb-8">
             Discuss infrastructure partnerships, municipal cooperation,
             investment opportunities, technology integration, or future
             node development within the DSAINT network.
           </p>
+
+          {/* Direct Contact */}
+          <div className="inline-flex flex-col gap-2 bg-white border border-sky-100 rounded-2xl p-6 shadow-md">
+            <span className="text-sm font-semibold text-slate-500 uppercase tracking-wide">
+              Direct Contact
+            </span>
+
+            <a
+              href="mailto:info@dsaint.eu"
+              className="text-xl font-semibold text-sky-600 hover:text-sky-800 transition"
+            >
+              info@dsaint.eu
+            </a>
+
+            <a
+              href="https://dsaint.eu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-600 hover:text-sky-600 transition"
+            >
+              https://dsaint.eu
+            </a>
+          </div>
         </div>
 
         {/* Form */}
@@ -25,6 +48,7 @@ export default function Contact() {
 
           {/* Row 1 */}
           <div className="grid md:grid-cols-2 gap-6">
+
             <div>
               <label className="block text-sm font-medium text-slate-700 mb-2">
                 First Name *
@@ -52,10 +76,12 @@ export default function Contact() {
                 className="w-full p-4 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500"
               />
             </div>
+
           </div>
 
           {/* Row 2 */}
           <div className="grid md:grid-cols-2 gap-6">
+
             <div>
               <label className="block text-sm font-medium text-slate-700 mb-2">
                 Email *
@@ -82,10 +108,12 @@ export default function Contact() {
                 className="w-full p-4 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500"
               />
             </div>
+
           </div>
 
           {/* Row 3 */}
           <div className="grid md:grid-cols-2 gap-6">
+
             <div>
               <label className="block text-sm font-medium text-slate-700 mb-2">
                 Organization *
@@ -112,6 +140,7 @@ export default function Contact() {
                 className="w-full p-4 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500"
               />
             </div>
+
           </div>
 
           {/* Message */}
